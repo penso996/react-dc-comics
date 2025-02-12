@@ -71,7 +71,7 @@ header {
 .main-content-background {
   display: flex;
   justify-content: center;
-  background-color: rgba(28, 28, 28, 255)
+  background-color: rgba(28, 28, 28, 255);
 }
 
 .main-content {
@@ -86,6 +86,8 @@ header {
   display: flex;
   justify-content: center;
   background-color: rgba(2, 130, 249, 255);
+  position: relative;
+  z-index: 100;
 }
 
 .main-links {
@@ -110,4 +112,39 @@ header {
   font-size: 10px;
   margin-left: 12px;
   font-weight: 400;
+}
+
+/* Footer */
+.footer-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/img/footer-bg.jpg");
+
+  height: 400px;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.footer-links {
+  width: 500px;
+  height: 300px;
+}
+
+.footer-links h4 {
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.footer-bottom {
+  height: 100px;
+  background-color: rgb(48, 48, 48, 255);
+  position: relative;
+  z-index: 100;
 }
