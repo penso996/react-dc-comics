@@ -23,6 +23,17 @@ export default function Footer() {
             <div className="lower-footer-container-background">
                 <div className="lower-footer-container">
 
+                    <button>SIGN-UP NOW!</button>
+
+                    <div className="follow-us">
+                        <p>FOLLOW US</p>
+                        <a href="#"><img src="\img\footer-facebook.png" alt="facebook" /></a>
+                        <a href="#"><img src="\img\footer-twitter.png" alt="twitter" /></a>
+                        <a href="#"><img src="\img\footer-youtube.png" alt="youtube" /></a>
+                        <a href="#"><img src="\img\footer-pinterest.png" alt="pinterest" /></a>
+                        <a href="#"><img src="\img\footer-periscope.png" alt="periscope" /></a>
+                    </div>
+
                 </div>
             </div>
 
