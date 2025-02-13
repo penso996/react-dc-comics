@@ -1,7 +1,7 @@
 // Header.jsx
 import HeaderNav from '../single_components/HeaderNav'
 
-export default function Header() {
+export default function Header(props) {
 
     return (
         <header>
@@ -11,7 +11,7 @@ export default function Header() {
                     <img className="logo" src="\img\dc-logo.png" alt="logo" />
                 </div>
 
-                <HeaderNav />
+                <HeaderNav links={props.links} />
 
             </div>
         </header>
