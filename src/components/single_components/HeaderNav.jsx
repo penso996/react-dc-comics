@@ -1,5 +1,4 @@
 // HeaderNav.jsx
-
 const links = [
     { id: 1, text: 'CHARACTERS', url: '#', current: false },
     { id: 2, text: 'COMICS', url: '#', current: false },
