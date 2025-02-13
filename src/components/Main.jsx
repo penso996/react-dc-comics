@@ -2,11 +2,12 @@
 export default function Main() {
     return (
         <main>
-            <div className="main-content-background">
-                <div className="main-content">
+            <div className="main-container-background">
+                <div className="main-container">
                     <h1>-- Content Goes Here --</h1>
                 </div>
             </div>
+
             <div className="main-links-background">
                 <div className="main-links">
                     <div className="main-links-card">

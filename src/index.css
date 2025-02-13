@@ -61,19 +61,25 @@ header {
   width: 100%;
 }
 
-/* Main */
-.main-content-background {
+/* HEADER */
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main-container-background {
   display: flex;
   justify-content: center;
   background-color: rgba(28, 28, 28, 255);
 }
 
-.main-content {
+.main-container {
   width: 70%;
-  height: 120px;
   display: flex;
   align-items: center;
-  color: white;
+  justify-content: space-between;
+  height: 120px;
 }
 
 .main-links-background {
