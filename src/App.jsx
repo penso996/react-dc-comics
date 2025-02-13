@@ -1,6 +1,6 @@
-import Header from './components/Header'
-import Main from './components/Main'
-import Footer from './components/Footer'
+import Header from './components/page_content/Header'
+import Main from './components/page_content/Main'
+import Footer from './components/page_content/Footer'
 
 function App() {
 

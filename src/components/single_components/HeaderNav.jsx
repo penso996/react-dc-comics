@@ -17,11 +17,9 @@ export default function HeaderNav() {
     return (
         <nav className="header-nav">
             {links.map((link) => (
-                <li key={link.id}>
-                    <a href={link.url} className={link.current ? 'active' : ''}>
-                        {link.text}
-                    </a>
-                </li>
+                <a key={link.id} href={link.url} className={link.current ? 'active' : ''}>
+                    {link.text}
+                </a>
             ))}
         </nav>
     );
