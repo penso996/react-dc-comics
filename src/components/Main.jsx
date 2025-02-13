@@ -2,6 +2,7 @@
 export default function Main() {
     return (
         <main>
+
             <div className="main-container-background">
                 <div className="main-container">
                     <h1>-- Content Goes Here --</h1>
@@ -32,6 +33,7 @@ export default function Main() {
                     </div>
                 </div>
             </div>
+
         </main>
     );
 }
