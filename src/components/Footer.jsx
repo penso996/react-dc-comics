@@ -8,9 +8,37 @@ export default function Footer() {
 
                     <div className="footer-links">
                         <h4>DC COMICS</h4>
+                        <p>Characters</p>
+                        <p>Comics</p>
+                        <p>Movies</p>
+                        <p>TV</p>
+                        <p>Games</p>
+                        <p>Videos</p>
+                        <p>News</p>
+
                         <h4>SHOP</h4>
+                        <p>Shop DC</p>
+                        <p>Shop DC Collectibles</p>
+
                         <h4>DC</h4>
+                        <p>Terms of Use</p>
+                        <p>Privacy Policy (New)</p>
+                        <p>Ad Choices</p>
+                        <p>Advertising</p>
+                        <p>Jobs</p>
+                        <p>Subscriptions</p>
+                        <p>Talent Workshops</p>
+                        <p>CPSC Certificates</p>
+                        <p>Ratings</p>
+                        <p>Shop Help</p>
+                        <p>Contact Us</p>
+
                         <h4>SITES</h4>
+                        <p>DC</p>
+                        <p>MAD Magazine</p>
+                        <p>DC Kids</p>
+                        <p>DC Universe</p>
+                        <p>DC Power Visa</p>
                     </div>
 
                     <div>
