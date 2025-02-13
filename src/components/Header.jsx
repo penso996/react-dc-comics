@@ -8,7 +8,7 @@ export default function Header() {
                 </div>
                 <nav className="header-nav">
                     <a href="#">CHARACTERS</a>
-                    <a className="active" href="#">COMICS</a>
+                    <a href="#">COMICS</a>
                     <a href="#">MOVIES</a>
                     <a href="#">TV</a>
                     <a href="#">GAMES</a>
