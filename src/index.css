@@ -81,14 +81,32 @@ main {
 }
 
 /* products */
-/* working */
-.product-card {
-  height: 300px;
-  width: calc(100% / 6);
-  padding: 10px;
-  background-color: aquamarine;
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
 }
 
+.product-card {
+  width: calc(100% / 6);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-card img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: top;
+}
+
+.product-card h4 {
+  color: white;
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+/* links */
 .main-links-background {
   display: flex;
   justify-content: center;
