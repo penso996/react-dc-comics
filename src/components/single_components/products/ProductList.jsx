@@ -3,7 +3,7 @@ import ProductCard from '../products/ProductCard'
 
 export default function ProductList() {
 
-    const comics = [
+    const comicsData = [
         {
             id: 1,
             title: "Action Comics #1000: The Deluxe Edition",
@@ -160,8 +160,8 @@ export default function ProductList() {
 
     return (
         <div className='product-list'>
-            {comics.map((comic) => (
-                <ProductCard key={comic.id} comic={comic} />
+            {comicsData.map((comicData) => (
+                <ProductCard key={comicData.id} comic={comicData} />
             ))}
         </div>
     );
