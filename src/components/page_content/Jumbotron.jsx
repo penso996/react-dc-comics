@@ -2,7 +2,7 @@
 export default function Jumbotron() {
     return (
         <section className="jumbotron">
-            <img src="public\img\jumbotron.jpg" alt="jumbotron" />
+            <button>CURRENT SERIES</button>
         </section>
     );
 }
