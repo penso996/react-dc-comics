@@ -1,4 +1,5 @@
 import Header from './components/page_content/Header'
+import Jumbotron from './components/page_content/Jumbotron'
 import Main from './components/page_content/Main'
 import Footer from './components/page_content/Footer'
 
@@ -20,6 +21,7 @@ function App() {
   return (
     <>
       <Header links={linksData} />
+      <Jumbotron />
       <Main />
       <Footer />
     </>
