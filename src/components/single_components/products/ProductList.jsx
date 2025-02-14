@@ -1,9 +1,10 @@
 // ProductList.jsx
+import ProductCard from '../products/ProductCard'
+
 export default function ProductList() {
     return (
         <section>
-            <h1>prodotti</h1>
+            <ProductCard />
         </section>
-
     );
 }

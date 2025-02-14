@@ -1,5 +1,5 @@
 // Main.jsx
-import ProductList from '../single_components/ProductList'
+import ProductList from '../single_components/products/ProductList'
 
 export default function Main() {
     return (
