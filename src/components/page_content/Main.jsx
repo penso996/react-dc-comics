@@ -1,11 +1,13 @@
 // Main.jsx
+import ProductList from '../single_components/ProductList'
+
 export default function Main() {
     return (
         <main>
 
             <div className="main-container-background">
                 <div className="main-container">
-                    <h1>-- Content Goes Here --</h1>
+                    <ProductList />
                 </div>
             </div>
 
